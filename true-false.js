@@ -9,7 +9,7 @@ Truthy ===='0',' '(white space within a blockquote),empty array, empty object,tr
 falsy=NaN,Undefined,null,when value is 0, when string is empty(''),false,
 
 */
-let age="0";//return true
+let age = "0"; //return true
 // let name=NaN;//return false
 // let name=null;//return false
 // let name;//return false because name is undefined
@@ -21,7 +21,6 @@ let age="0";//return true
 // const age = 0;//return false
 if (age) {
   console.log("Condition is true");
-}
-else {
+} else {
   console.log("Condition is false");
 }
