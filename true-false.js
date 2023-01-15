@@ -7,7 +7,6 @@ if any variable value is undefined/null/NaN js will take it as false
 ***important***
 Truthy ===='0',' '(white space within a blockquote),empty array, empty object,true,'false'
 falsy=NaN,Undefined,null,when value is 0, when string is empty(''),false,
-
 */
 let age = "0"; //return true
 // let name=NaN;//return false
